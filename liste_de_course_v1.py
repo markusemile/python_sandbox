@@ -1,3 +1,5 @@
+import sys
+
 running = True
 option = -1
 my_list = []
