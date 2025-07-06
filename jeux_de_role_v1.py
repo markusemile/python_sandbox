@@ -2,6 +2,21 @@ import random
 
 mes_potions = 1
 potion_add = 5
+
+weapons = [
+    {"name": "masse", "damage": +2, "price": 5},
+    {"name": "scourge of arms", "damage": +4, "price": 10},
+    {"name": "bow", "damage": +1, "price": 8},
+    ]
+# protection in %
+potions = [
+    {"name": "Healing potion", "damage": 0, "recovery": 5, "protection": 0, "price": 10},
+    {"name": "Phenix potion", "damage": 0, "recovery": 15, "protection": 0, "price": 20},
+    {"name": "Force fields", "damage": 0, "recovery": 0, "protection": 20, "price": 10},
+    {"name": "Blinding arrow", "damage": 0, "recovery": 0, "protection": 100, "price": 30},
+]
+
+
 ma_force = random.randrange(5, 15)
 nombre_de_mort = 0
 option = -1
